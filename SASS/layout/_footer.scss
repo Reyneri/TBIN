@@ -1,0 +1,39 @@
+@import '../abstracts/mixins';
+
+
+.footer {
+    @include flex-column-start;
+    background-color: $footer-background ;
+    color: $footer-text;
+    font-size: 1em;
+    font-weight: 400;
+    padding: 22px 25px;
+    height: 8,25%;
+
+
+    // logo
+    &__logo {
+        @include flex-column-start;
+
+        font-family: $font-logo-titles ;
+        font-size: $fs-footer-logo;
+        width: 137.582px;
+        height: 27px;
+        flex-shrink: 0;
+        margin-bottom: 16px;
+    }
+
+    &__nav {
+        @include flex-column-start;
+
+    }
+
+
+
+    &__nav-link {
+        @include nav-link;
+    }
+
+
+
+}

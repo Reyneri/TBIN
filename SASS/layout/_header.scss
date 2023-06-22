@@ -1,0 +1,14 @@
+@import '../abstracts/mixins';
+
+.header {
+
+    background-color: $background;
+    color: $text;
+    font-family: $font-text;
+    @include flex-column-center ;
+&__logo {
+  width: 100%;
+}
+
+
+  }
