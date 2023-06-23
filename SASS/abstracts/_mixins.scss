@@ -32,4 +32,10 @@ i {
 margin-bottom: 7.07%;
 }
   
+
+@mixin flex-aic-jcc{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
   
