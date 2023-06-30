@@ -38,4 +38,33 @@ margin-bottom: 7.07%;
   align-items: center;
   justify-content: center;
 }
+
+@mixin flex-aic-jcfs{
+  display: flex;
+  align-items: self-start;
+  justify-content: flex-start;
+}
+@mixin flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+@mixin title-restaurant {
+
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 25px;
+  width: 100%;
+  max-width: 1060px;
+  text-align: left;
+
+}
   
+
+@mixin padding-large($left: 180px, $right: 180px) {
+  padding-left: $left;
+  padding-right: $right;
+}
